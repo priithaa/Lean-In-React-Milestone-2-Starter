@@ -13,4 +13,3 @@ ENDPOINT METHOD FUCNTION
 /Anime POST Add a new Blog
 /Anime/{id} DELETE Delete a Blog
 
-# How to make a Fetch data using useeffect
