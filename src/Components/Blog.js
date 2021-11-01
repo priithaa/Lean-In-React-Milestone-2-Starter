@@ -6,6 +6,7 @@ const Blog = (props) => {
             <h3>{props.title}</h3>
             <h4>{props.rating}</h4>
             <p>{props.content}</p>
+            <button onClick={()=>props.handleDel(props.id)}>Delete</button>
           </div>
         </>     
     );
